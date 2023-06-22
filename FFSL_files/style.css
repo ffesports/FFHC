@@ -2085,9 +2085,17 @@ nus {
 button.detailbt,
 button.detailbt2 {
     color: #000;
-    border: 1px solid rgb(100 175 255);
+    border: 1px solid rgb(0 103 213);
     /* margin: 13px 0; */
-    background: #008aff;
+    background: #00A3FF;
+    border-radius: 50px;
+}
+
+button.detailbt3{
+	color: #000;
+    border: 1px solid rgb(235 233 233);
+    /* margin: 13px 0; */
+    background: #6C6C6C;
     border-radius: 50px;
 }
 
@@ -2100,6 +2108,7 @@ button.detailbt2 {
     -o-animation: jumper02 1.8s 0.66666s ease-out infinite;
     animation: jumper02 1.8s 0.66666s ease-out infinite;
 }
+
 
 @-webkit-keyframes jumper02 {
     0% {
