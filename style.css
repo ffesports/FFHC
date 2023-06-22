@@ -2091,6 +2091,14 @@ button.detailbt2 {
     border-radius: 50px;
 }
 
+button.detailbt3{
+	color: #000;
+    border: 1px solid rgb(235 233 233);
+    /* margin: 13px 0; */
+    background: #6C6C6C;
+    border-radius: 50px;
+}
+
 button.detailbt2 {
     -webkit-box-shadow: 0px 0px 25px 4px rgb(0 142 255);
     -moz-box-shadow: 0px 0px 25px 4px rgb(0 142 255);
@@ -2100,13 +2108,7 @@ button.detailbt2 {
     -o-animation: jumper02 1.8s 0.66666s ease-out infinite;
     animation: jumper02 1.8s 0.66666s ease-out infinite;
 }
-button.detailbt3{
-	color: #000;
-    border: 1px solid rgb(235 233 233);
-    /* margin: 13px 0; */
-    background: #6C6C6C;
-    border-radius: 50px;
-}
+
 
 @-webkit-keyframes jumper02 {
     0% {
