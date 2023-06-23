@@ -291,8 +291,9 @@ ol li {
 }
 
 a {
-    color: #00a0e9;
-    text-decoration: none;
+    color: #9f9f9f;
+    text-decoration: underline;
+    font-size: 15px;
 }
 
 a:hover {
