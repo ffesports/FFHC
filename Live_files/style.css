@@ -330,8 +330,9 @@ p2 {
 }
 
 p3 {
-    font-size: 21px;
-    color: #ffc800;
+    color: #787878;
+    width: 100%;
+    font-weight: 400;
 }
 
 img.imgcenter {
@@ -1103,7 +1104,7 @@ ul.notice {
 }
 
 .warnbox a:hover {
-    color: #ce931d;
+    color: #00bdff;
     text-decoration: underline;
 }
 
@@ -1568,7 +1569,6 @@ ul.infolist {
 .warnbox {
     display: block;
     width: 100%;
-    min-height: 100px;
     margin-top: 10px;
     margin-right: auto;
     margin-left: auto;
@@ -1586,6 +1586,7 @@ ul.infolist {
     font-size: 17px;
     line-height: 29px;
     position: relative;
+    min-height: 100px;
 }
 
 .warnbox ul {
