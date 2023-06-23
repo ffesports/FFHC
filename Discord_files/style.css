@@ -213,9 +213,8 @@ ts {
 
 @media only screen and (max-width: 850px) {
     #map {
-    width: 100%;
-    margin: 5% auto;
-    height: 100%;
+        width: 100%;
+        margin: 5% auto;
     }
 }
 
@@ -330,9 +329,8 @@ p2 {
 }
 
 p3 {
-    color: #787878;
-    width: 100%;
-    font-weight: 400;
+    font-size: 21px;
+    color: #ffc800;
 }
 
 img.imgcenter {
@@ -363,7 +361,6 @@ img.imgcenter {
 
 *:focus {
     outline: none;
-    width: 100%;
 }
 
 .inner-container {
@@ -1104,7 +1101,7 @@ ul.notice {
 }
 
 .warnbox a:hover {
-    color: #00bdff;
+    color: #ce931d;
     text-decoration: underline;
 }
 
@@ -1586,7 +1583,6 @@ ul.infolist {
     font-size: 17px;
     line-height: 29px;
     position: relative;
-    min-height: 100px;
 }
 
 .warnbox ul {
@@ -4577,10 +4573,9 @@ perspective effects (not including the modals and the overlay).
     }
 
     #s2 .title {
-    margin-top: 30px;
-    width: 70%;
-    margin: 30px auto 0 auto;
-    height: 175px;
+        margin-top: 30px;
+        width: 70%;
+        margin: 30px auto 0 auto;
     }
 
     #s2 .smcaption {
