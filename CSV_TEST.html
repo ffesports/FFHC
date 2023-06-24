@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>读取远程CSV文件</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+  <table id="table">
+ 
+  </table>
+
+  <script>
+    $(document).ready(function() {
+      $.ajax({
+        type: "GET",
+        url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vSRV4rBmMp7Z4NMZlSHkuUbjstsFH1RdEVi8QAiRNhzGvyaMUydspQQGMn1HfLhX1O3EZ6I8gt8cfeg/pub?gid=376433265&single=true&output=csv",
+        dataType: "text",
+        success: function(data) {
+          // 解析CSV数据
+          var rows = data.split('\n');
+          var table = document.getElementById("table");
+
+          // 遍历每一行数据
+          for (var i = 0; i < rows.length; i++) {
+            var cells = rows[i].split(',');
+            var row = table.insertRow();
+
+            // 遍历每个单元格数据
+            for (var j = 0; j < cells.length; j++) {
+              var cell = row.insertCell();
+              cell.textContent = cells[j];
+            }
+          }
+        }
+      });
+    });
+  </script>
+</body>
+</html>
