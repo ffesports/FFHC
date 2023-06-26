@@ -102,7 +102,9 @@ ul {
 table {
     border-collapse: collapse;
     border-spacing: 0;
-    margin: 20px 0 0 0;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 0;
 }
 
 caption,
@@ -210,6 +212,10 @@ ts {
     font-size: 11px;
     color: #c7af00;
 }
+.thCSV1 {
+
+}
+
 
 @media only screen and (max-width: 850px) {
     #map {
@@ -2953,6 +2959,7 @@ nav .bt_wrap .login {
 }
 
 nav .bt_wrap .login:hover {
+
     background: transparent url("https://ffcup.ff.garena.tw/django-static/event/images/nav5_ov.png") 50% 0 no-repeat;
 }
 
@@ -4659,6 +4666,7 @@ perspective effects (not including the modals and the overlay).
     .formbox .row:last-child {
         border-bottom: 0 solid #ccc;
     }
+
 
     .enterbtm button {
         width: 85%;

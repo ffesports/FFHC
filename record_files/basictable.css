@@ -69,10 +69,10 @@
      border-bottom: 0px;
      }
  table tr td {
-     background: #2d2a2a;
-     color: #cbc9cc;
-     font-size: 14px;
-     border: 1px solid #4e4848;
+    background: #2d2a2a;
+    color: #cbc9cc;
+    font-size: 6px;
+    border: 1px solid #4e4848;
  }
  table tr:nth-of-type(2n+2) td {
      background: #272525;
