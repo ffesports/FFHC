@@ -77,6 +77,10 @@
  table tr:nth-of-type(2n+2) td {
      background: #272525;
  }
+.highlight {
+    background-color: #E7C900;
+}
+
  table.bt tfoot th::before, table.bt tfoot td::before, table.bt tbody td::before {
      content: attr(data-th) "";
      background: #383434;
